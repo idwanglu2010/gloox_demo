@@ -1,0 +1,103 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/sendChatEdit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="请输入对方的uid" />
+
+        <EditText
+            android:id="@+id/sendChatMessageEdit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="请输入要发送的内容" />
+
+        <Button
+            android:id="@+id/sendChat"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="发送chat消息" />
+
+        <EditText
+            android:id="@+id/sendGroupChatEdit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="请输入群组id" />
+
+        <EditText
+            android:id="@+id/sendGroupChatMessageEdit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="请输入要发送的内容" />
+
+        <Button
+            android:id="@+id/sendGroutChat"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="发送群组消息" />
+
+        <EditText
+            android:id="@+id/joinChatRoomEdit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="请输入群组id" />
+        
+        <EditText
+            android:id="@+id/joinChatRoomNickEdit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="请输入群组昵称" />
+
+        <Button
+            android:id="@+id/joinChatRoom"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="加入群组" />
+        
+        <EditText
+            android:id="@+id/leaveChatRoomEdit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="请输入群组id" />
+        
+        <EditText
+            android:id="@+id/leaveChatRoomNickEdit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="请输入群组昵称" />
+
+        <Button
+            android:id="@+id/leaveChatRoom"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="退出群组" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="注销" />
+    </LinearLayout>
+
+</ScrollView>
